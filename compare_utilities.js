@@ -41,7 +41,7 @@ function swayGroup(lhs, rhs) {
   return "equal";
 }
 
-function reduceByRocking(group) {
+function reduceBySeesawing(group) {
   if (!(group instanceof Array)) {
     throw new TypeError("Can't reduce non-array.");
   }
@@ -90,5 +90,5 @@ module.exports = {
   sumArray,
   compare,
   swayGroup,
-  reduceByRocking,
+  reduceBySeesawing,
 };

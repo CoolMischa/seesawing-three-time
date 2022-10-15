@@ -1,0 +1,15 @@
+= Drei Mal wippen
+:author: Mischa Soujon
+:email: mischa@soujon-net.de
+:date: 2022-10-15 15:04:38
+:stem:
+:toc:
+
+Diese Software soll bei einem kleinen Logikrätsel helfen.
+
+== Das Problem
+Es sind auf einer Insel zwölf Menschen (P) und eine Wippe. Elf von diesen Menschen sind genau gleich schwer und genau einer ist leichter oder schwerer. Mit maximal dreimal wiegen mit Hilfe der Wippe ist der Mensch mit dem abweichenden Gewicht stem:[g_k] zu ermitteln und ob dieser Mensch schwerer oder leichter ist als der Rest.
+
+Das Problem lässt sich auch mit Kugeln formulieren, aber Menschen auf einer Insel kann man am Strand in den Sand setzen ;-).
+
+Es gibt genau ein k mit stem:[g_k \NotEqual g_i] für alle stem:[i \NotEqual k] und stem:[i, k \[Element] {1, ... , 12}]. Finde stem:[k] mit maximal drei Vergleichen und zeige stem:[g_k > g_i] oder stem:[g_k < g_i] für alle stem:[i \NotEqual k] und stem:[i, k \[Element] {1, ... , 12}].
